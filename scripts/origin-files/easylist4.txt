@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202509290251
+! Version: 202510042354
 ! Title: EasyPrivacy
-! Last modified: 29 Sep 2025 02:51 UTC
+! Last modified: 04 Oct 2025 23:54 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 6888e5935223f410cf70130a59c969e353450c3b
+! Commit: f04d6033378a2bc4335f67989862987ab1e8931d
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -3343,6 +3343,7 @@ omni.soundestlink.com$image
 ||aditude.cloud^
 ||admaxium.com^
 ||adnext.co^
+||adrsbl.io^
 ||adrtx.net^
 ||adscore.com^
 ||adsmeasurement.com^
@@ -3448,6 +3449,7 @@ omni.soundestlink.com$image
 ||eagle-insight.com^
 ||ecn-ldr.de^
 ||ed-sys.net^
+||ediemidnightzombies.com^
 ||efreecode.com^
 ||egoi.site^
 ||emailsnow.info^
@@ -3610,6 +3612,7 @@ omni.soundestlink.com$image
 ||motu-teamblue.services^
 ||mrpdata.net^
 ||mt48.net^
+||myangular.life^
 ||mysingleromance.com^
 ||native-track.com^
 ||niblewren.co^
@@ -7578,6 +7581,7 @@ omni.soundestlink.com$image
 ||perfectfetch.com^
 ||perkyjade.com^
 ||phonecup.com^
+||phoneresult.com^
 ||photohints.com^
 ||physicstees.com^
 ||pickmicro.com^
@@ -7678,6 +7682,7 @@ omni.soundestlink.com$image
 ||quillkick.com^
 ||quiltquick.com^
 ||quirkybliss.com^
+||quirkybodega.com^
 ||quirkysugar.com^
 ||quixoticnebula.com^
 ||quizzicalpartner.com^
@@ -9813,6 +9818,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||assets.yumpu.com/release/*/tracking.js
 ||assistant.watson.appdomain.cloud/analytics/
 ||asterpix.com/tagcloudview/
+||async-px.dynamicyield.com^
 ||at.cbsi.com/lib/api/client-info
 ||at.cbsi.com^*/event?
 ||atcdn.co.uk/frostbite/
@@ -10160,6 +10166,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||comic-rocket.com/metrics.js
 ||commerce.adobe.io/recs/$script
 ||commerce.bing.com^
+||commercial-analytics-collector.news.co.uk^
 ||comms.thewhiskyexchange.com^$image
 ||communicatorcorp.com^*/conversiontracking.js
 ||compendiumblog.com/sp.js
@@ -10599,6 +10606,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||getglue.com^*/count?
 ||getkudos.me/a?$image
 ||getmetrical.com/storagesync
+||getnodejs.com/add-event/
 ||getpos.de/ext/
 ||getrockerbox.com/pixel?
 ||gg-unleash-prod.azurewebsites.net/proxy/client/metrics
@@ -11208,6 +11216,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||p.typekit.net^
 ||p.yotpo.com^
 ||p0.com/1x1
+||pac.talksport.com/track
 ||paddle.com^*/analytics.js
 ||page-events-ustats.udemy.com^
 ||pagecloud.com/event
@@ -11240,6 +11249,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||pcrl.co/js/jstracker.min.js
 ||pega.com/logserver
 ||pegasus.unifygroup.com^
+||pendo.io/data/ptm.gif/
 ||penton.com/analytics/
 ||perf-events.cloud.unity3d.com^
 ||perf.hsforms.com^
@@ -12336,6 +12346,10 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tracking.miui.com^
 ||trk.pinterest.com^$third-party
 ||yandexadexchange.net^
+! https://coveryourtracks.eff.org/ Cover your tracks test
+||do-not-tracker.org^
+||eviltracker.net^
+||trackersimulator.org^
 ! cloudfront
 ||d10lpsik1i8c69.cloudfront.net^
 ||d11bdev7tcn7wh.cloudfront.net^
@@ -13521,6 +13535,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||stats.gridmidia.com.br^
 ||sycamore.com.br/pixel/
 ||tags.cmp.tail.digital^
+||tags.premiumads.com.br^
 ||terra.com.br/metrics/
 ||tiktok.tray.com.br^
 ||track.noddus.com^
@@ -13652,6 +13667,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tbe.tom.ru^
 ||telemetry.jivosite.com^
 ||test.legitcode.ws^
+||test.showvid.ws^
 ||tms-st.cdn.ngenix.net^
 ||tms.dmp.wi-fi.ru^
 ||top.elec.ru^
@@ -13698,6 +13714,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||bpt.webedia-group.com^
 ||citiservi.es/adstrack?
 ||collector-videoplayer.5centscdn.net^
+||collector.dgnet.ltd.uk^
 ||contador.biobiochile.cl^
 ||contadores.miarroba.com^
 ||contadores.miarroba.es^
@@ -14184,6 +14201,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||collector.megaxh.com^
 ||collector.pi.spectrum.net^
 ||collector.quillbot.com^
+||collector.spankbang.party^
 ||collector.taoxh.life^
 ||collector.xhaccess.com^
 ||collector.xhamster.com^
@@ -14193,6 +14211,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||collector.xhamsterporno.mx^
 ||collider.com/strpixel.png
 ||colvk.viki.io^
+||comms.bps.org.uk^
 ||confiant.msn.com^
 ||configurator.ecom-mobile-samsung.com/api/logger
 ||connatix.com/scripts/$~third-party
@@ -15776,7 +15795,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||youtube-nocookie.com/robots.txt?
 ||youtube-nocookie.com/youtubei/v1/log_event?
 ||youtube.com/api/stats/ads?
-||youtube.com/api/stats/atr?ns=*&ver=2&cmt=1.*&fs=0&*&euri&lact=
+! ||youtube.com/api/stats/atr?ns=*&ver=2&cmt=1.*&fs=0&*&euri&lact=
 ||youtube.com/api/stats/qoe?*page&ns=yt&fexp=v1%*&event=streamingstats&
 ||youtube.com/get_video?
 ||youtube.com/pcs/activeview?
@@ -16211,10 +16230,10 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 ||nakanohito.jp^*/bi.js$domain=nexon.com,important
 ! #endif
 ! Youtube
-||youtube.com/api/stats/atr?ns=*&ver=2&cmt=1.*&fs=0&*&euri&lact=$badfilter
+! ||youtube.com/api/stats/atr?ns=*&ver=2&cmt=1.*&fs=0&*&euri&lact=$badfilter
 ||youtube.com/api/stats/qoe?*page&ns=yt&fexp=v1%*&event=streamingstats&$badfilter
 ||youtube.com/ptracking?html5=1&video_id=*&cpn=*&ei=*&ptk=youtube_*&pltype=content$badfilter
-||youtube.com/api/stats/atr?ns=*&ver=2&cmt=1.*&fs=0&*&euri&lact=$xhr,method=post
+! ||youtube.com/api/stats/atr?ns=*&ver=2&cmt=1.*&fs=0&*&euri&lact=$xhr,method=post
 ||youtube.com/api/stats/qoe?*page&ns=yt&fexp=v1%*&event=streamingstats&$xhr,method=post
 ||youtube.com/ptracking?html5=1&video_id=*&cpn=*&ei=*&ptk=youtube_*&pltype=content$xhr,method=get
 ! -----------------Individual cname tracking systems-----------------!
@@ -53876,6 +53895,7 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 ||2gis.ru/_/metrics
 ||3dnews.ru/track
 ||4pda.ru/stat/
+||a.lifehacker.ru^
 ||a.mts.ru^
 ||a.pikabu.ru^
 ||a.ria.ru^
@@ -54336,7 +54356,7 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 @@||ipv4.seeip.org/jsonip$domain=empire-streaming.app
 @@||join.southerncross.co.nz/quote/_assets/js/sx/app/helpers/gtm.js
 @@||js-agent.newrelic.com^$domain=alliantcreditunion.com|giftcards.com|kapwing.com|live.griiip.com
-@@||js.datadome.co/tags.js$script,domain=monster.ca|sso.garena.com|thefork.at|thefork.be|thefork.ch|thefork.co.uk|thefork.com|thefork.de|thefork.es|thefork.fr|thefork.it|thefork.nl|thefork.pt|thefork.se
+@@||js.datadome.co/tags.js$script,domain=monster.ca|sso.garena.com|thefork.at|thefork.be|thefork.ch|thefork.co.uk|thefork.com|thefork.de|thefork.es|thefork.fr|thefork.it|thefork.nl|thefork.pt|thefork.se|ugg.com
 @@||js.sentry-cdn.com^$script,domain=app.homebinder.com|bolt.new|book.dmm.com|etsy.com|interacty.me|jobs.ch|pizzahut.com.au
 @@||jsrdn.com/s/$script,domain=distro.tv
 @@||kameleoon.eu/kameleoon.js$script,domain=buttercloth.com|jules.com
@@ -54928,6 +54948,7 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 @@||useinsider.com/ins.js$domain=pizzahut.jp
 @@||user.userguiding.com/sdk/identify$xmlhttprequest,domain=xaris.ai
 @@||webcdn.stream.ne.jp^*/referrer.js$domain=stream.ne.jp
+@@||wf.typesquare.com^$font,domain=morisawafonts.com
 @@||yjtag.yahoo.co.jp/tag?$script,domain=bousai.yahoo.co.jp
 @@||yu.xyz.mn/images/event.gif?$image,~third-party
 @@||zinro.net/m/log.php
@@ -55028,6 +55049,7 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 @@||elconfidencial.com^*/EventTracker.js
 @@||metrics.el-mundo.net/b/ss/$image,domain=expansion.com
 @@||mi.tigo.com.co/plugins/cordova-plugin-fingerprint-aio/$script,~third-party
+@@||registro.pse.com.co/PSENF/assets/js/fingerprint.min.js$script,domain=registro.pse.com.co
 @@||spxl.socy.es^$script,xmlhttprequest,domain=3djuegosguias.com|3djuegospc.com|applesfera.com|compradiccion.com|directoalpaladar.com|espinof.com|genbeta.com|poprosa.com|trendencias.com|trendenciashombre.com|vidaextra.com|vitonica.com|xatakamovil.com
 @@||static-cdn.hotjar.com^$script,domain=mercadopublico.cl
 @@||static.hotjar.com/c/hotjar-$script,domain=mercadopublico.cl

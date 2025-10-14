@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202510111117
+! Version: 202510141113
 ! Title: EasyPrivacy
-! Last modified: 11 Oct 2025 11:17 UTC
+! Last modified: 14 Oct 2025 11:13 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 7811d5919d43cc9ac75ca3d2360f9ed28e3553ae
+! Commit: dd17b7333c98e3d20c21181d7aa27f48e6432054
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -3296,6 +3296,7 @@ _WebVitalsReporter_
 /wf/open?upn=$image
 /wizrocketmail.net/r?$image
 /znsrc.com/c/*$image
+/znsrc.com/o/*$image
 ://2ip.*/member_photo/$third-party
 ://cl.melonbooks.co.jp/c/$image
 ://e.*/open?$image
@@ -3698,6 +3699,7 @@ omni.soundestlink.com$image
 ||sjpf.io^
 ||skcrtxr.com^
 ||smartmetrics.co.uk^
+||smartytouch.co^
 ||snptrk.com^
 ||soapfighters.com^
 ||solutionshindsight.net^
@@ -7634,6 +7636,7 @@ omni.soundestlink.com$image
 ||prepareplanes.com^
 ||presetrabbits.com^
 ||presscoder.com^
+||prettyeasycafe.com^
 ||prettylearning.com^
 ||previousplayground.com^
 ||priceypies.com^
@@ -10345,6 +10348,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||drift.com/targeting/evaluate_with_log
 ||drift.com/track
 ||dugout.co/das2.js
+||duplexer.wix.com^
 ||dw.com.com^$script
 ||dx.mountain.com^
 ||dynamic.ziftsolutions.com^
@@ -11612,6 +11616,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||soccer.ru/counter/
 ||socialannex.com/c-sale-track/$script
 ||solutions.invocacdn.com^
+||sonic-prod.cbssports.cloud/analytics/
 ||souisa.com/analytics/
 ||soundestlink.com/rest/forms/v2/track/
 ||sourceforge.net/tracker/$~xmlhttprequest
@@ -12465,6 +12470,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||dc8xl0ndzn2cb.cloudfront.net^
 ||dcv4p460uqa46.cloudfront.net^
 ||dd6zx4ibq538k.cloudfront.net^
+||de5zarwna0j2q.cloudfront.net^
 ||dggaenaawxe8z.cloudfront.net^
 ||dh0c1bz67fuho.cloudfront.net^
 ||di2xwvxz1jrvu.cloudfront.net^
@@ -52227,6 +52233,7 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 ||geoip.finanzen.net^
 ||glomex.com^$ping
 ||gmx.net/monitoring/
+||golem.de/staticrl/scripts/external/snow-390-min.js
 ||golem.de/staticrl/scripts/golem_cpxl_
 ||hamburger-stadtplan.com/t.gif
 ||hannover-stadtplan.com/t.gif
@@ -53443,6 +53450,7 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 ||tokopedia.com/helios-client/client-log
 ! Italian
 /~shared/do/~/count/?$image
+||adnkronos.com/isf-rum/
 ||alfemminile.com/logpix.php
 ||altervista.org/js/contatore.js
 ||altervista.org/js_tags/contatore.js
@@ -53737,7 +53745,6 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 ||log.kinolights.com^
 ||log.tossinvest.com^
 ||log.zdnet.co.kr^
-||nam.veta.naver.com^
 ||naver.com/jackpotlog/
 ||naver.com/PostView.nhn?$image
 ||ntm.pstatic.net/scripts/ntm_$domain=naver.com

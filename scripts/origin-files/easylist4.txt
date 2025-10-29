@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202510260811
+! Version: 202510291611
 ! Title: EasyPrivacy
-! Last modified: 26 Oct 2025 08:11 UTC
+! Last modified: 29 Oct 2025 16:11 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 1238b615d0f296b3d5484e07f6d5ff5fd01291b4
+! Commit: a72cd105d0b4570c3b093ac7ae50c8f40409bfb4
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -121,6 +121,7 @@
 /_i?referral_url=
 /_i?type=event&
 /_lib/ga.js
+/_mzblank.gif?
 /_owa.gif?
 /_servix/webid.aspx?$script
 /_sess/script.js
@@ -507,6 +508,7 @@
 /brightedge.js
 /brightspot/analytics/*
 /brightTag-min.js
+/bsf-bing-scripts/custom-pixels/*
 /bsp-analytics.min.
 /bstat.js
 /btrack.php?
@@ -3142,7 +3144,6 @@ _WebVitalsReporter_
 .redsift.com/e/o/$image
 .revolut.com/q/$image
 .s-pt.jp/mail/info/*/img/_.gif
-.salesforce.com/servlet/servlet.ImageServer?$image
 .secureserver.net/bbimage.aspx?
 .sendcloud.net/track/$image
 .sendemail.gate.io/o/$image
@@ -3184,6 +3185,7 @@ _WebVitalsReporter_
 /1x1_usermatch.gif?
 /?s=from_notification_service&u=$image
 /ap.lijit.com/*
+/api.transferwise.com/v1/notification-flow/messages/*/open.gif
 /atlas-trk.prd.msg.ss-inf.net/*$image
 /beacon.krxd.net/*
 /beaconimages.netflix.net/*$image
@@ -3202,6 +3204,7 @@ _WebVitalsReporter_
 /condor.slgnt.eu/optiext/optiextension.dll?$image
 /cp.gap.com/o/*$image
 /e.customeriomail.com/e/o/*$image
+/email-link.adtidy.org/open/*$image
 /email-pixel?
 /email.t.*/o/*$image
 /email/open/?pd=$image
@@ -3224,6 +3227,7 @@ _WebVitalsReporter_
 /inbox.*/imp?$image
 /is-tracking-pixel-
 /klicks.nebenan.de/q/*$image
+/line.my.salesforce.com/servlet/servlet.ImageServer?oid=*&esid=$image
 /link-tracker?*&l=open&
 /link.coindesk.com/img/*
 /link.divenewsletter.com/img/*$image
@@ -6597,6 +6601,7 @@ omni.soundestlink.com$image
 ||basilfish.com^
 ||basketballbelieve.com^
 ||baskettexture.com^
+||bastingart.com^
 ||bawdybalance.com^
 ||beamvolcano.com^
 ||beancontrol.com^
@@ -6618,6 +6623,7 @@ omni.soundestlink.com$image
 ||bilingualgeek.com^
 ||billowybead.com^
 ||billowybelief.com^
+||billtable.com^
 ||binarycrest.com^
 ||binspiredtees.com^
 ||birthdaybelief.com^
@@ -6867,6 +6873,7 @@ omni.soundestlink.com$image
 ||currentcollar.com^
 ||curtaincows.com^
 ||curvedhoney.com^
+||curveshore.com^
 ||curvycry.com^
 ||cushiondrum.com^
 ||cutecalculator.com^
@@ -7099,6 +7106,7 @@ omni.soundestlink.com$image
 ||framebanana.com^
 ||franksfloral.com^
 ||franticroof.com^
+||freedomgrail.com^
 ||freezeassets.com^
 ||freezingbuilding.com^
 ||frequentflesh.com^
@@ -7307,6 +7315,7 @@ omni.soundestlink.com$image
 ||jazzwholesale.com^
 ||jetskiscovers.com^
 ||jewelryforest.com^
+||jewelrysprings.com^
 ||joblessdrum.com^
 ||jobmist.com^
 ||joyfulharbor.com^
@@ -7371,6 +7380,7 @@ omni.soundestlink.com$image
 ||likethedog.com^
 ||limepeal.com^
 ||linkedleg.com^
+||linksoutside.com^
 ||livelumber.com^
 ||livelylaugh.com^
 ||livingsleet.com^
@@ -7452,6 +7462,7 @@ omni.soundestlink.com$image
 ||merryopal.com^
 ||merryvault.com^
 ||mesaviewlodge.com^
+||messagelists.com^
 ||messmonster.com^
 ||messyoranges.com^
 ||metajaws.com^
@@ -7639,6 +7650,7 @@ omni.soundestlink.com$image
 ||polishedfolly.com^
 ||politeplanes.com^
 ||politicalporter.com^
+||popmixradio.com^
 ||popplantation.com^
 ||possibleboats.com^
 ||possiblepencil.com^
@@ -7685,6 +7697,7 @@ omni.soundestlink.com$image
 ||pumpedpurpose.com^
 ||punyplant.com^
 ||puppetcorp.com^
+||puppiesart.com^
 ||puppytooth.com^
 ||purposepipe.com^
 ||pyramidpaw.com^
@@ -10366,7 +10379,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||drift.com/targeting/evaluate_with_log
 ||drift.com/track
 ||dugout.co/das2.js
-||duplexer.wix.com^
 ||dw.com.com^$script
 ||dx.mountain.com^
 ||dynamic.ziftsolutions.com^
@@ -54571,6 +54583,7 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 @@||targetimg1.com/webui/$script,domain=target.com
 @@||teams.microsoft.com/dialin-cdn-root/*/aria-web-telemetry-$~third-party
 @@||telemetry.stytch.com/submit$domain=play.pixels.xyz
+@@||teleportpod.com/assets/EventTracking-$script,~third-party
 @@||tennispro.eu/min/?$script,~third-party
 @@||thaiairways.com/static/common/js/wt_js/webtrends.min.js$~third-party
 @@||thomas.co/sites/default/files/google_tag/primary/google_tag.script.js$script,~third-party

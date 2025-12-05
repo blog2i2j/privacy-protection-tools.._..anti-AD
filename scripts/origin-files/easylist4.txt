@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202512021713
+! Version: 202512051746
 ! Title: EasyPrivacy
-! Last modified: 02 Dec 2025 17:13 UTC
+! Last modified: 05 Dec 2025 17:46 UTC
 ! Expires: 4 days (update frequency)
-! Commit: e327b3a34f1febd18691003b5f6da52deb01fe96
+! Commit: 2eb824759c0835d51646b3e28159ab7d2d2f08a7
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -1470,6 +1470,7 @@
 /LogRecorder.php
 /logreferrer.php?
 /logs/report_js_error
+/logs?ddsource=
 /logstat.js
 /logstats.php
 /logview.js
@@ -1551,6 +1552,7 @@
 /monitor/v1/log
 /monitor?rtype=
 /monitor_analytic.js
+/monitor_browser/collect/*
 /monitoring?o=$xmlhttprequest
 /monitus.js
 /monsido.js
@@ -2868,6 +2870,7 @@
 ://segment-cdn.
 ://signal.*/hardal
 ://signals.*/hardal
+://sp.*/sp/h|$xmlhttprequest
 ://stat.*/pageview/$xmlhttprequest
 ://stats.*/code/e.js
 ://t.targito.
@@ -3318,6 +3321,7 @@ _WebVitalsReporter_
 ://e.*/open?$image
 ://email.*/o/$image
 ://emailtracking.$image
+://line.karte.io/CI0/$image
 ://links.flickr.com/s/eo/$image
 ://links.paypal.*/eos/$image
 ://mailmag.hhcross.hankyu-hanshin.jp/c/*.gif
@@ -6739,6 +6743,7 @@ omni.soundestlink.com$image
 ||canvasandsocks.com^
 ||capablecup.com^
 ||capriciouscorn.com^
+||captainstick.com^
 ||captivatingcanyon.com^
 ||captivatingillusion.com^
 ||captivatingpanorama.com^
@@ -6966,6 +6971,7 @@ omni.soundestlink.com$image
 ||dinnerquartz.com^
 ||direfuldesk.com^
 ||disagreeabledrop.com^
+||discopond.com^
 ||discreetfield.com^
 ||discreetquarter.com^
 ||distributionpocket.com^
@@ -7123,6 +7129,7 @@ omni.soundestlink.com$image
 ||fixedfold.com^
 ||flakyfeast.com^
 ||flameuncle.com^
+||flashtexting.com^
 ||fleetbegin.com^
 ||flimsycircle.com^
 ||flimsythought.com^
@@ -7229,6 +7236,7 @@ omni.soundestlink.com$image
 ||gorgeousedge.com^
 ||gorillapage.com^
 ||gossamerwing.com^
+||gotlunched.com^
 ||gracefulmilk.com^
 ||grainmass.com^
 ||grandfatherguitar.com^
@@ -7353,6 +7361,7 @@ omni.soundestlink.com$image
 ||inputicicle.com^
 ||inquisitiveice.com^
 ||inquisitiveinvention.com^
+||insectmacros.com^
 ||inspirebees.com^
 ||insulatech.com^
 ||intelligentscissors.com^
@@ -7554,6 +7563,7 @@ omni.soundestlink.com$image
 ||modularmental.com^
 ||momentfilter.com^
 ||monacobeatles.com^
+||monkeyapes.com^
 ||monkeystyping.com^
 ||monstermemes.com^
 ||monthlyhat.com^
@@ -10161,6 +10171,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cdn.statically.io/gh/opcdn/analytics/main/script.js
 ||cdn.super.com/remote-event-registry.json
 ||cdn.usefathom.com^
+||cdn.zg-api.com^*/analytics.js
 ||cdnjs.work/metrics.js
 ||cdnma.com/apps/capture.js
 ||cdnplanet.com/static/rum/rum.js
@@ -11779,6 +11790,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||soundestlink.com/rest/forms/v2/track/
 ||sourceforge.net/tracker/$~xmlhttprequest
 ||sp-wukong-tracker.b-cdn.net^
+||sp.pcid.ca^
 ||sp.tinymce.com^
 ||spa-tracker.spapi.io^
 ||sparklit.com/counter/
@@ -15781,6 +15793,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||trivago.com/tracking/
 ||trk.decido.io^
 ||trk.tirto.id^
+||trulia.com/track/trackingPixel.gif?
 ||trumba.com/et.aspx?
 ||trustradius.com/api/v1/pageview
 ||trustradius.com/api/v2/collectMetrics
@@ -16299,6 +16312,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||walmartethics.com/px/PXcfrcFEfA/init.js
 ||walmartpetrx.com/1Ct9c6G3/init.js
 ||walmartrealty.com/px/PXcfrcFEfA/init.js
+||weekand.com/413gkwMT/init.js
 ||wfla.com/CvbtpUrj/init.js
 ||wgno.com/CvbtpUrj/init.js
 ||wine-searcher.com/K6S8okp3/init.js
@@ -16366,10 +16380,11 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ! https://github.com/AdguardTeam/AdguardFilters/issues/218663
 ||d21y75miwcfqoq.cloudfront.net/436f3341$image,redirect=nooptext
 ! GPC
-delta.com,geizhals.de,harborfreight.com,flyfrontier.com,acmemarkets.com,usaa.com,capezio.com,twitch.tv,spotify.com,tidal.com,deezer.com,pandora.com,qobuz.com,soundcloud.com,vimeo.com,x.com,twitter.com,eventbrite.com,wunderground.com,accuweather.com,formula1.com,lenscrafters.com,subway.com,ticketmaster.*,livewithkellyandmark.com,visible.com,porsche.com,uber.com,jdsports.com,engadget.com,yahoo.com,techcrunch.com,rivals.com,kkrt.com,crunchyroll.com,dnb.com,dnb.co.uk,weather.com,ubereats.com##+js(set, Navigator.prototype.globalPrivacyControl, false)
-delta.com,geizhals.de,harborfreight.com,flyfrontier.com,acmemarkets.com,usaa.com,capezio.com,twitch.tv,spotify.com,tidal.com,deezer.com,pandora.com,qobuz.com,soundcloud.com,vimeo.com,x.com,twitter.com,eventbrite.com,wunderground.com,accuweather.com,formula1.com,lenscrafters.com,subway.com,ticketmaster.*,livewithkellyandmark.com,visible.com,porsche.com,uber.com,jdsports.com,engadget.com,yahoo.com,techcrunch.com,rivals.com,kkrt.com,crunchyroll.com,dnb.com,dnb.co.uk,weather.com,ubereats.com##+js(set, navigator.globalPrivacyControl, false)
+accuweather.com,acmemarkets.com,boston.com,capezio.com,chime.com,costco.com,crunchyroll.com,deezer.com,delta.com,dnb.co.uk,dnb.com,dollargeneral.com,engadget.com,espn.com,eventbrite.com,flyfrontier.com,formula1.com,geizhals.de,gladiatorgarageworks.com,harborfreight.com,hopwtr.com,jdsports.com,kkrt.com,lenscrafters.com,livewithkellyandmark.com,madewell.com,mazdausa.com,milesplit.live,monsterenergy.com,newyorker.com,norton.com,pandora.com,payment.nba.com,porsche.com,qobuz.com,rivals.com,soundcloud.com,spotify.com,subway.com,techcrunch.com,ticketmaster.*,tidal.com,tirerack.com,twitch.tv,twitter.com,uber.com,ubereats.com,usaa.com,vimeo.com,visible.com,weather.com,wunderground.com,x.com,yahoo.com##+js(set, Navigator.prototype.globalPrivacyControl, false)
+accuweather.com,acmemarkets.com,boston.com,capezio.com,chime.com,costco.com,crunchyroll.com,deezer.com,delta.com,dnb.co.uk,dnb.com,dollargeneral.com,engadget.com,espn.com,eventbrite.com,flyfrontier.com,formula1.com,geizhals.de,gladiatorgarageworks.com,harborfreight.com,hopwtr.com,jdsports.com,kkrt.com,lenscrafters.com,livewithkellyandmark.com,madewell.com,mazdausa.com,milesplit.live,monsterenergy.com,newyorker.com,norton.com,pandora.com,payment.nba.com,porsche.com,qobuz.com,rivals.com,soundcloud.com,spotify.com,subway.com,techcrunch.com,ticketmaster.*,tidal.com,tirerack.com,twitch.tv,twitter.com,uber.com,ubereats.com,usaa.com,vimeo.com,visible.com,weather.com,wunderground.com,x.com,yahoo.com##+js(set, navigator.globalPrivacyControl, false)
 ! Clear GPC storage item
 visible.com##+js(set-local-storage-item, browser-ids, $remove$)
+madewell.com##+js(cookie-remover, dns_cookie)
 ! Showing "Enable Cookies Please enable cookies in your browser to access USAA."
 usaa.com##+js(set-cookie, GPC, 1, , reload, 1)
 ! server-side GTM
@@ -54479,6 +54494,7 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 @@||chasecdn.com/web/*/eventtracker.js$domain=chase.com
 @@||chat.d-id.com/assets/mixpanel.$~third-party
 @@||check.ddos-guard.net/check.js$script
+@@||clcouncil.org/wp-content/plugins/counter-block/assets/js/counter.js?$script,~third-party
 @@||cleverpush.com/channel/$script,domain=bsdex.de|heise.de
 @@||cleverpush.com/sdk/$script,domain=heise.de
 @@||clouderrorreporting.googleapis.com^$domain=waze.com

@@ -1,9 +1,9 @@
-! Checksum: 8NCkaZ3+clctVgEkdYjSsA
-! Diff-Path: ../patches/224_optimized/224_optimized-s-1765447913-3600.patch
+! Checksum: QvowGNbNEOymc0iyNC5l1Q
+! Diff-Path: ../patches/224_optimized/224_optimized-s-1765635017-3600.patch
 ! Title: AdGuard Chinese filter (Optimized)
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.1.49.61
-! TimeUpdated: 2025-12-11T10:08:51+00:00
+! Version: 2.1.49.74
+! TimeUpdated: 2025-12-13T14:07:26+00:00
 ! Expires: 12 hours (update frequency)
 ||onemob.mobi^$third-party
 ||tp.suppercacheimages.top^
@@ -4529,6 +4529,29 @@ newduba.cn###jq_youxi
 .z.dkt-ib.com
 ||cnzz.trafficmanager.net^
 ||cupfox.app^$third-party
+||0hagz9mdc.com^
+||appoint38.com^
+||v84tz11w7.com^
+||tkll12130nb.com^
+||vrrm.cn^
+||insurance55.top^
+||yarcokme.com^
+||fsmnmorgb.com^
+||9soefyenw.com^
+||tkll12131nb.com^
+||ephothuwi.com^
+||bnqektutom.com^
+||3nopvvhju5.com^
+||veuf2obzc8.com^
+||travel44.top^
+||tkll12120nb.com^
+||entrepreneurs46.com^
+||enelveufry.com^
+||vwe5pjt0jq.com^
+||wres.cn^
+||of384py2xt.com^
+||tkll12121nb.com^
+||odmerorlzo.com^
 ||accomplish89.com^
 ||vdhatq0co.com^
 ||68tkaiaji.com^
@@ -13073,6 +13096,7 @@ meijutt.*/js/pcjs/
 ||ping0.cc/static/images/ad/
 ||workers.dev^$domain=axiang.cc
 zhihu.com##.Pc-word-new
+youku.com##div[class*="adDrawer"]
 6park.com##td[style="line-height:30px;text-align:center;color:red;background-color:white;"]
 6park.com##.main_news_list > a[href^="http"]:not([href*="6park.com"])
 hkcards.com#?#div[style*="min-height"]:has(.my-1)
@@ -21621,7 +21645,6 @@ fqsousou.com,kengso.com#@#.user-share
 ||gemini.yahoo.com^
 ||geo.yahoo.com^
 ||getui.cn^
-||getui.com^
 ||ggx.cmvideo.cn^
 ||ggx01.miguvideo.com^
 ||ggx03.miguvideo.com^

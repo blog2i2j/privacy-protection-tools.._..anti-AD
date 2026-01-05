@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202601020127
+! Version: 202601050802
 ! Title: EasyPrivacy
-! Last modified: 02 Jan 2026 01:27 UTC
+! Last modified: 05 Jan 2026 08:02 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 0ef445bba4d74d7eb2b19a688f63e20380c80fd6
+! Commit: 80f95777f913972e9d6756364754919955f0caa9
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -7305,6 +7305,7 @@ omni.soundestlink.com$image
 ||gripcorn.com^
 ||grocerycrew.com^
 ||grocerydog.com^
+||groovespacing.com^
 ||groovyornament.com^
 ||grouchybrothers.com^
 ||grouchypush.com^
@@ -7641,6 +7642,7 @@ omni.soundestlink.com$image
 ||monthlyhat.com^
 ||mooncrustpizza.com^
 ||moorshoes.com^
+||morefolks.com^
 ||morefriendly.com^
 ||motionflowers.com^
 ||motionlessbelief.com^
@@ -7652,6 +7654,7 @@ omni.soundestlink.com$image
 ||muddledmemory.com^
 ||mundanenail.com^
 ||mushywaste.com^
+||musicflashcard.com^
 ||muteknife.com^
 ||mutemailbox.com^
 ||mutualhappy.com^
@@ -7677,6 +7680,7 @@ omni.soundestlink.com$image
 ||networklast.com^
 ||newarkdriving.com^
 ||newartreview.com^
+||nicefollows.com^
 ||niftygraphs.com^
 ||niftyhospital.com^
 ||niftyjelly.com^
@@ -7709,6 +7713,7 @@ omni.soundestlink.com$image
 ||objectsnetwork.com^
 ||oblivionfleet.com^
 ||obscenesidewalk.com^
+||obsidiangems.com^
 ||octaneblood.com^
 ||offerniche.com^
 ||offgridcrops.com^
@@ -14875,6 +14880,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||gnar.grammarly.com^
 ||gnavi.co.jp/analysis/
 ||go.fap18.net/ftt2/js.php
+||go.nutraingredients.com/pd.js
 ||go.pardot.com^
 ||go.thegrocer.co.uk^
 ||go.theregister.com^$image
@@ -15182,6 +15188,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||metrics.hackerrank.com^
 ||metrics.hyperliquid.xyz^
 ||metrics.imdb.com^
+||metrics.morethings.digital^
 ||metrics.onewegg.com^
 ||metrics.roblox.com^
 ||metrics.spkt.io^
@@ -15266,6 +15273,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||nextdoor.*/ajax/ping_ndas/
 ||nextdoor.com/events/
 ||nflshop.com/api/track
+||nid.mansionglobal.com^
 ||nid.thesun.co.uk^
 ||nid.thetimes.com^
 ||nike.com/assets/measure/data-capture/
@@ -15746,6 +15754,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||t.goodchop.com^
 ||t.indeed.com^
 ||t.ionos.com^
+||t.jasper.ai^
 ||t.jossandmain.com^
 ||t.kck.st^
 ||t.lataco.com/collect
@@ -15776,6 +15785,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tags.stepstone.com^
 ||tahoe.com/imp
 ||taiwanplus.com/api/video/startVideo
+||talkingpointsmemo.com/whoami
 ||tao.barstoolsports.com^
 ||tapeadsenjoyer.com/stat/
 ||tapeadvertisement.com/stat/
@@ -15993,6 +16003,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||upwork.com/shasta/suit
 ||upwork.com/upi/jslogger
 ||urs.metacritic.com^
+||use.hetzner.com^
 ||useblackbox.io/telemetry
 ||user-back.ggcorp.me/statistics
 ||user-metrics.onthemarket.com^
@@ -54023,6 +54034,7 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 ||recv-entry.tbs.co.jp^
 ||recv-jnn.tbs.co.jp^
 ||recv.tbs.co.jp^
+||reebok.jp/resources/js/analysis/tracker.js
 ||retty.me/gen204.php
 ||retty.me/javascripts/common/logging.js
 ||revico.jp/providejs/revico_tracking.js
@@ -54757,6 +54769,7 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 @@||live.rezync.com^$script,domain=batteriesplus.com
 @@||liveapi.cleverpush.com/websocket$websocket,domain=heise.de
 @@||loader-cdn.azureedge.net/prod/smi/loader.min.js$domain=pressdemocrat.com
+@@||log.go.com/log$xmlhttprequest,domain=disneyvacationclub.disney.go.com
 @@||logging.apache.org^$~third-party
 @@||lr-ingest.io/LogRocket.min.js$domain=smartcare.com
 @@||m1tm.insideevs.com/gtm.js$~third-party

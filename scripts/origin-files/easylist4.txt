@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202601050802
+! Version: 202601081652
 ! Title: EasyPrivacy
-! Last modified: 05 Jan 2026 08:02 UTC
+! Last modified: 08 Jan 2026 16:52 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 80f95777f913972e9d6756364754919955f0caa9
+! Commit: 5ef021786e38d4e8a96f67058b391611f7328a94
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -7720,9 +7720,12 @@ omni.soundestlink.com$image
 ||offshoreassets.com^
 ||offshorecyclone.com^
 ||offshoregeology.com^
+||okaysurethat.com^
 ||oldandindie.com^
 ||oldfashionedoffer.com^
+||oldportcoffee.com^
 ||omgthink.com^
+||onecrow.net^
 ||onedropocean.com^
 ||onlinestarten.net^
 ||onlywoofs.com^
@@ -7747,10 +7750,12 @@ omni.soundestlink.com$image
 ||owlreporter.com^
 ||owlsr.us^
 ||owlstwo.com^
+||owltin.com^
 ||oxygenfuse.com^
 ||pailcrime.com^
 ||pailpatch.com^
 ||painstakingpickle.com^
+||paintmogul.com^
 ||paintpear.com^
 ||paleleaf.com^
 ||palmytree.com^
@@ -7774,6 +7779,7 @@ omni.soundestlink.com$image
 ||perceivequarter.com^
 ||perfectfetch.com^
 ||perkyjade.com^
+||petitechili.com^
 ||phonecup.com^
 ||phoneresult.com^
 ||photohints.com^
@@ -9853,6 +9859,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics.aweber.com^
 ||analytics.bestreviews.com^
 ||analytics.bitrix.info^
+||analytics.bomiv.com^
 ||analytics.carambo.la^
 ||analytics.carbaselive.com^
 ||analytics.chegg.com^
@@ -12214,6 +12221,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||track.91app.io^
 ||track.atgstores.com^$third-party
 ||track.bannedcelebs.com^
+||track.bomiv.com^
 ||track.btdmp.com^
 ||track.coherentpath.com^
 ||track.contently.com^
@@ -15838,6 +15846,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||thesun.ie/track?
 ||thetimes.co.uk/track?
 ||thetruth.com/pd.js
+||thetruthaboutcars.com/api/slots
 ||thewindowsclub.com/wp-content/themes/genesis/lib/js/skip-links.min.js
 ||thisiswhyimbroke.com/api/user/gift-guide-thumbnail-homepage/tracking
 ||thisiswhyimbroke.com/api/user/tracking

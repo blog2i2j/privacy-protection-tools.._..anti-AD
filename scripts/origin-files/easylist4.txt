@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202601081652
+! Version: 202601111508
 ! Title: EasyPrivacy
-! Last modified: 08 Jan 2026 16:52 UTC
+! Last modified: 11 Jan 2026 15:08 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 5ef021786e38d4e8a96f67058b391611f7328a94
+! Commit: b186592e75636ecdda06a94b8fc56c3a1cdbf743
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -3056,6 +3056,7 @@ _WebVitalsReporter_
 .acemlna.com/Prod/link-tracker?$image
 .acemlnb.com/Prod/link-tracker?$image
 .alcmpn.com/
+.animatebookstore.com/c/$image
 .aozorabank.co.jp/r/*/open/$image
 .app.returnpath.net/
 .aveda.com/t/$image
@@ -3155,6 +3156,7 @@ _WebVitalsReporter_
 .pledgebox.com/t/$image
 .pstmrk.it/open^
 .publish0x.com/t/
+.qualtrics.com/subscription/watermark.gif?
 .quora.com/qemail/mark_read?
 .recolution.de/tools/emails/open/$image
 .redsift.com/e/o/$image
@@ -3897,6 +3899,7 @@ omni.soundestlink.com$image
 ||aamsitecertifier.com^$third-party
 ||aaxdetect.com^$third-party
 ||abcstats.com^$third-party
+||ablecdp.com^$third-party
 ||ablsrv.com^$third-party
 ||ablyft.com^$third-party
 ||abmr.net^$third-party
@@ -4038,6 +4041,7 @@ omni.soundestlink.com$image
 ||anametrix.net^$third-party
 ||angelfishstats.com^$third-party
 ||angorch-cdr7.com^$third-party
+||anonm.io^$third-party
 ||anonymised.io^$third-party
 ||anrdoezrs.net^$third-party
 ||answerbook.com^$third-party
@@ -5176,6 +5180,7 @@ omni.soundestlink.com$image
 ||measured.com^$third-party
 ||measuremap.com^$third-party
 ||measurementapi.com^$third-party
+||media.net^$third-party
 ||media01.eu^$third-party
 ||mediaarmor.com^$third-party
 ||mediaforgews.com^$third-party
@@ -5203,6 +5208,7 @@ omni.soundestlink.com$image
 ||metricsdirect.com^$third-party
 ||metricswave.com^$third-party
 ||mezzobit.com^$third-party
+||mgaru.dev^$third-party
 ||mgln.ai^$~media,third-party
 ||miadates.com^$third-party
 ||mialbj6.com^$third-party
@@ -6223,6 +6229,7 @@ omni.soundestlink.com$image
 ||vtracker.net^$third-party
 ||w3counter.com^$third-party
 ||walmeric.com^$third-party
+||wandzcdn.com^$third-party
 ||waplog.net^$third-party
 ||waudit.cz^$third-party
 ||wbdx.fr^$third-party
@@ -6742,6 +6749,7 @@ omni.soundestlink.com$image
 ||brownboxgroup.com^
 ||bruisebaseball.com^
 ||bubblyaction.com^
+||buddycanvas.com^
 ||bugpizza.com^
 ||buildingknife.com^
 ||bulbbait.com^
@@ -7786,6 +7794,7 @@ omni.soundestlink.com$image
 ||physicstees.com^
 ||pickmicro.com^
 ||pietexture.com^
+||pigeonkit.com^
 ||pigeonsetc.com^
 ||pigmentpaper.com^
 ||pinchsquirrel.com^
@@ -7884,6 +7893,7 @@ omni.soundestlink.com$image
 ||questionate.com^
 ||quicklyedit.com^
 ||quicksandear.com^
+||quicktrick.net^
 ||quietknowledge.com^
 ||quillkick.com^
 ||quiltquick.com^
@@ -7933,6 +7943,7 @@ omni.soundestlink.com$image
 ||reconditeprison.com^
 ||reconditerake.com^
 ||reconditerespect.com^
+||recyclehits.com^
 ||redbasketball.com^
 ||redbricksoap.com^
 ||reduceplan.com^
@@ -7978,6 +7989,7 @@ omni.soundestlink.com$image
 ||ritzyveil.com^
 ||roaddynamics.com^
 ||roadwalks.com^
+||roamhousing.com^
 ||robotgarages.com^
 ||rockagainst.com^
 ||rockstarwriter.com^
@@ -7985,8 +7997,10 @@ omni.soundestlink.com$image
 ||roseincome.com^
 ||rottenray.com^
 ||rovememoirs.com^
+||royalsbagels.com^
 ||royalsweeper.com^
 ||ruralrobin.com^
+||rusticfrench.com^
 ||rusticprice.com^
 ||ruthlessdegree.com^
 ||sableshelf.com^
@@ -9647,7 +9661,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||eresmas.net^$third-party
 ||estadisticasgratis.com^$third-party
 ||flags.es^$third-party
-||indigitall.com^$third-party
 ||intrastats.com^$third-party
 ||mabaya.com^$third-party
 ||micodigo.com^$third-party
@@ -9918,6 +9931,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics.mlstatic.com^
 ||analytics.myfidevs.io^
 ||analytics.myfinance.com^
+||analytics.netronline.dev^
 ||analytics.newscred.com^
 ||analytics.onlyonlinemarketing.com^
 ||analytics.optilead.co.uk^
@@ -10271,6 +10285,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cdn.stamped.io/cdn/images/pixel.png
 ||cdn.statically.io/gh/opcdn/analytics/main/script.js
 ||cdn.super.com/remote-event-registry.json
+||cdn.tolt.io/tolt.js
 ||cdn.usefathom.com^
 ||cdn.zg-api.com^*/analytics.js
 ||cdnjs.work/metrics.js
@@ -10425,6 +10440,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||collector.getyourguide.com^
 ||collector.mazeberry.com^
 ||collector.net-logger.com^
+||collector.pmc.com^
 ||collector.sspinc.io^
 ||collector5.zipy.ai^
 ||comeon.com/tracking.php
@@ -10499,6 +10515,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||coveo.com/coveo.analytics.js/
 ||covery.ai/fp/$third-party
 ||covet.pics/beacons
+||cp.filext.com^
 ||cp.official-coupons.com^
 ||cp.official-deals.co.uk^
 ||cqloud.com/measurements/
@@ -11020,6 +11037,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||incapdns.net/monitor.js
 ||incomaker.com//tracking/
 ||ind.sh/view.php?$third-party
+||indigitall.com/v1/browser?
 ||indoleads.com/api/pixel-content/
 ||inetstatic.com/tracking/
 ||infinityid.condenastdigital.com^
@@ -12256,6 +12274,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||track.yfret.com^
 ||track.yieldsoftware.com^
 ||track.zappos.com^
+||track1.avplayer.com^
 ||trackdesk.com/tracking.js
 ||tracker-dot-optimeeze.appspot.com^
 ||tracker-server.high-cdn.com^
@@ -13801,6 +13820,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ave-caesar-mas.modivo.io^
 ||cafenews.pl/mpl/static/static.js?
 ||cmp.dreamlab.pl^
+||cpu-api.infor.pl^
 ||dsg.interia.pl^
 ||hit.interia.pl^
 ||hypemarketing.pl/cdn/fhmm-tracker.js
@@ -15166,6 +15186,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||mat6tube.com/api/stats?
 ||maximise.nyc3.cdn.digitaloceanspaces.com/mxmse.min.js$domain=essentiallysports.com
 ||mcc-tags.cisco.com^
+||mcdonalds.com/tags/js/*/mparticle.js
+||mcdonalds.com/webevents/
 ||mcs-ie.tiktokw.eu^
 ||mcs-va-useast2a.tiktokv.com^
 ||mcs-va.tiktokv.com^
@@ -54511,6 +54533,7 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 ||ta.sanook.com^
 ||thairath.co.th/event/
 ! Turkish
+||a.n11.com^
 ||analytics.cosmopolitanmag.com.tr^
 ||athena-event-provider.n11.com^
 ||c.gazetevatan.com^

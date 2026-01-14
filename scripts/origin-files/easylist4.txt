@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202601111508
+! Version: 202601141631
 ! Title: EasyPrivacy
-! Last modified: 11 Jan 2026 15:08 UTC
+! Last modified: 14 Jan 2026 16:31 UTC
 ! Expires: 4 days (update frequency)
-! Commit: b186592e75636ecdda06a94b8fc56c3a1cdbf743
+! Commit: 380274593da0b810c38b1baf4ab456a9b0e8ad96
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -2275,6 +2275,7 @@
 /statscounter/*
 /statscript.js
 /statsd_proxy
+/statsig-proxy/*
 /StatSNA.js
 /StatsPage.php
 /StatsPixel?
@@ -4530,6 +4531,7 @@ omni.soundestlink.com$image
 ||easycounter.com^$third-party
 ||easyhitcounters.com^$third-party
 ||easyresearch.se^$third-party
+||eazydata.io^$third-party
 ||ebtrk1.com^$third-party
 ||ec-track.com^$third-party
 ||ecommstats.com^$third-party
@@ -5404,6 +5406,7 @@ omni.soundestlink.com$image
 ||ositracker.com^$third-party
 ||otoshiana.com^$third-party
 ||ournet-analytics.com^$third-party
+||oursprivacy.com^$third-party
 ||outbid.io^$third-party
 ||outbrainimg.com^$third-party
 ||overstat.com^$third-party
@@ -5433,6 +5436,7 @@ omni.soundestlink.com$image
 ||pdbu.net^$third-party
 ||pdmntn.com^$third-party
 ||pdst.fm^$script,third-party
+||peasy.so^$third-party
 ||peerius.com^$third-party
 ||percentmobile.com^$third-party
 ||perf-serving.com^$third-party
@@ -7108,6 +7112,7 @@ omni.soundestlink.com$image
 ||etherealpinnacle.com^
 ||evanescentedge.com^
 ||evasivejar.com^
+||evencoating.com^
 ||eventexistence.com^
 ||eventsmall.com^
 ||exampleshake.com^
@@ -8021,6 +8026,7 @@ omni.soundestlink.com$image
 ||samuraibots.com^
 ||sandboxbid.com^
 ||sandstrophies.com^
+||sapnest.com^
 ||satisfycork.com^
 ||savoryink.com^
 ||savoryorange.com^
@@ -8044,6 +8050,8 @@ omni.soundestlink.com$image
 ||scenicapparel.com^
 ||scenicchicago.com^
 ||scenicdrops.com^
+||scentedkindly.com^
+||scholarloop.com^
 ||sciencedart.com^
 ||scientificshirt.com^
 ||scintillatingscissors.com^
@@ -8068,6 +8076,7 @@ omni.soundestlink.com$image
 ||secretturtle.com^
 ||seedscissors.com^
 ||seekmyshop.com^
+||seekremote.com^
 ||seenvault.com^
 ||seespice.com^
 ||selectivesummer.com^
@@ -10453,6 +10462,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||compendiumblog.com/sp.js
 ||competitoor.com/analytics/
 ||conan.screencast-o-matic.com^
+||conceptualhq.com/api/v1/track?
 ||concert.io/lookup/
 ||conde.io/beacon
 ||condenastdigital.com/content?$third-party
@@ -11160,6 +11170,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||leadliaison.com/tracking_engine/
 ||leadpages.net/leadboxes/current/embed.js
 ||leadpages.net^*/tracking.js
+||leads.whatboxdigital.com^
 ||leadtracking.plumvoice.com^
 ||leadvision.dotmailer.co.uk^$third-party
 ||lederer.nl/incl/stats.js.php?
@@ -13075,6 +13086,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||retrack.q-divisioncdn.de^
 ||retresco.de^*/stats/$third-party
 ||rum.mauve.eu^
+||scdn.literatur-couch.de^
 ||script.idgentertainment.de/gt.js
 ||serverkompetenz.net/cpx.php?
 ||sheego.de/ar/$third-party
@@ -14597,6 +14609,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||csp.godaddy.com^
 ||cstats.sankakucomplex.com^
 ||cultofmac.com/djrxqhzkbsgf.js
+||cursor.com/analytics/
 ||cvs.com/tnadstlinj.js
 ||cwt.citywire.info^
 ||cxgpt1.goindigo.in/forward/v2/track
@@ -15781,6 +15794,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||t.deepnote.com^
 ||t.factorform.com^
 ||t.freelancer.com^
+||t.gazetteer.co^
 ||t.goodchop.com^
 ||t.indeed.com^
 ||t.ionos.com^
@@ -15940,6 +15954,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tracking.game8.co^
 ||tracking.hsn.com^
 ||tracking.peopleareeverything.com^
+||tracking.pixelz.com^
 ||tracking.rocketleague.com^
 ||tracking.shopstyle.co.uk^
 ||tracking.shopstyle.com^
@@ -52594,6 +52609,7 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 ||cpxl.golem.de^
 ||d.rp-online.de^
 ||dasoertliche.de/js/liwAnalytics.js
+||data.manga-passion.de^
 ||data.openerotik.com^
 ||data.sportdeutschland.tv^
 ||dd.betano.com^
@@ -54666,6 +54682,7 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 @@||cdn.matomo.cloud/tekuchi.matomo.cloud/matomo.js$domain=berkeleygroup.digital
 @@||cdn.mxpnl.com/libs/$script,domain=get.pumpkin.care
 @@||cdn.perfops.net/rom3/rom3.min.js$domain=cdnperf.com
+@@||cdn.rawgit.com/dmauro/keypress/master/keypress.js$script,domain=dmauro.github.io
 @@||cdn.segment.com/analytics-next/
 @@||cdn.segment.com/analytics.js/$script,domain=abstractapi.com|accounts-bc.com|app.cryptotrader.tax|app.joinhandshake.com|driversed.com|fender.com|finerdesk.com|foxbusiness.com|foxnews.com|givingassistant.org|inxeption.io|reuters.com|squaretrade.com|swatches.interiordefine.com
 @@||cdn.segment.com/next-integrations/integrations/
@@ -54970,6 +54987,7 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 @@||trackonomics.net/client/$script,domain=popsugar.com
 @@||travel-assets.com/platform-analytics-prime/$domain=chase.com
 @@||try.abtasty.com^$script,domain=tickpick.com
+@@||tt.personio.com/9sgqlkuag.js$script,domain=personio.com
 @@||tunein.com/api/v1/comscore$~third-party
 @@||unpkg.com/@adobe/magento-storefront-event-collector@$domain=osprey.com
 @@||userapi.com^*.gif?extra=$image,domain=vk.com

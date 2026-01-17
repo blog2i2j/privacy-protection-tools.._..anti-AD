@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202601141631
+! Version: 202601171205
 ! Title: EasyPrivacy
-! Last modified: 14 Jan 2026 16:31 UTC
+! Last modified: 17 Jan 2026 12:05 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 380274593da0b810c38b1baf4ab456a9b0e8ad96
+! Commit: 027393587faddc5acaca5630c341ff3453752f4f
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -356,7 +356,6 @@
 /api/pageview/*$ping
 /api/pageview?
 /api/pagevisits
-/api/ping?$~xmlhttprequest
 /api/pixel?
 /api/reqAnalytic/*
 /api/stat?
@@ -2790,6 +2789,7 @@
 /WRb.js^
 /wreport.js
 /writelog.js
+/ws-tracking.js
 /wstat.pl
 /wstats.php?
 /wt_capi.js
@@ -3590,6 +3590,7 @@ omni.soundestlink.com$image
 ||hzstats.com^
 ||i218435.net^
 ||ia-dmp.com^
+||ibclick.stream^
 ||icg-in.com^
 ||icg-in.info^
 ||iconmediapixel.com^
@@ -4289,6 +4290,7 @@ omni.soundestlink.com$image
 ||claritytag.com^$third-party
 ||clarium.io^$third-party
 ||clarivoy.com^$third-party
+||claydar.com^$third-party
 ||clearbit.com^$third-party
 ||clearbitjs.com^$third-party
 ||clevi.com^$third-party
@@ -8110,10 +8112,12 @@ omni.soundestlink.com$image
 ||shallowblade.com^
 ||shamerain.com^
 ||shapecomb.com^
+||sharedswap.com^
 ||sheargovernor.com^
 ||sheideal.com^
 ||shesubscriptions.com^
 ||shinypond.com^
+||shirtseasons.com^
 ||shirtsidewalk.com^
 ||shiveringspot.com^
 ||shiverscissors.com^
@@ -8155,6 +8159,7 @@ omni.soundestlink.com$image
 ||skillsresults.com^
 ||skisofa.com^
 ||skullmagnets.com^
+||skullteeth.com^
 ||skylightdata.com^
 ||slackpod.com^
 ||slaysweater.com^
@@ -8245,6 +8250,7 @@ omni.soundestlink.com$image
 ||spurioussquirrel.com^
 ||spuriousstranger.com^
 ||spysubstance.com^
+||squadtee.net^
 ||squalidscrew.com^
 ||squarecamel.com^
 ||squeakzinc.com^
@@ -8253,6 +8259,7 @@ omni.soundestlink.com$image
 ||squishybears.com^
 ||stageschine.com^
 ||stakedances.com^
+||stakeschips.com^
 ||stakingbasket.com^
 ||stakingshock.com^
 ||stakingsmile.com^
@@ -9861,6 +9868,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics-cms.whitebeard.me^
 ||analytics-consent-manager-v2-prod.azureedge.net^
 ||analytics-fe.digital-cloud-prem.medallia.com^
+||analytics-fe.digital-cloud.medallia.com^
 ||analytics-prd.aws.wehaa.net^
 ||analytics-prod-alb-292764149.us-west-2.elb.amazonaws.com^
 ||analytics-production.hapyak.com^
@@ -10660,6 +10668,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||edge-hls.doppiocdn.com/ping
 ||edge-hls.doppiocdn.live/ping
 ||edge-hls.doppiocdn.net/ping
+||edge.adobedc.net/ee/v1/collect?
 ||edge.bredg.com^$third-party
 ||edrone.me/trace?
 ||edw.edmunds.com/edw/edw1x1.gif
@@ -11132,7 +11141,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||k.streamrail.com^
 ||k5a.io/?i=
 ||kalstats.kaltura.com^
-||kameleoon.io/visit/events?
+||kameleoon.io/visit/
 ||kbb.com/partner/$third-party
 ||kelkoogroup.net/st?
 ||kimonix.com/analytics/
@@ -11552,6 +11561,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||paypal.com/xoplatform/logger/api/logger
 ||paypal.com^*/pixel.gif$third-party
 ||paypalobjects.com^*/pixel.gif
+||pbd.yahoo.com/data/analytics
 ||pbjs-stream.bydata.com^
 ||pc161021.com/scripts/noui/eventlogger.js
 ||pc161021.com/scripts/noui/StatProvider.js
@@ -14327,6 +14337,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics.tradedoubler.com^
 ||analytics.vedantu.com^
 ||analytics.vgtimes.com^
+||analytics.vinovo.si^
 ||analytics.viture.dev^
 ||analytics.vortexscans.com^
 ||analytics.wavebox.io^
@@ -14747,6 +14758,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||essentiallysports.com/growth/engagement/
 ||et.nytimes.com^
 ||et.tidal.com^
+||eta.animenewsnetwork.com^
 ||etracker.noon.com^
 ||etsy.com/bcn/beacon
 ||etsy.com/clientlog
@@ -16384,6 +16396,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ! CSP Mining
 $csp=child-src 'none'; frame-src 'self' *; worker-src 'none',domain=fileone.tv|theappguruz.com
 $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vidoza.net
+! Other resource abuse
+||gyrovague.com^$domain=archive.is|archive.ph|archive.today
 ! *** easylist:easyprivacy/easyprivacy_specific_perimeterx.txt ***
 ! easyprivacy_specific_perimeterx.txt
 ||alaskaair.com/AlXMT4Ma/init.js
@@ -52568,6 +52582,7 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 ||aerzteblatt.de/inc/js/ga4.js
 ||agnes.waz.de^
 ||analytics.adliners.de^
+||analytics.animexx.de^
 ||analytics.daasrv.net^
 ||analytics.deutscher-apotheker-verlag.de^
 ||analytics.moviepilot.de^
@@ -54646,11 +54661,13 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 @@||api.perfops.net^$script,xmlhttprequest,domain=cdnperf.com|dnsperf.com
 @@||api.sprig.com/sdk/1/environments/$xmlhttprequest,domain=developer.salesforce.com
 @@||api.touchnote.io^$xmlhttprequest,domain=app.touchnote.com
+@@||api.twitter.com/1.1/onboarding/referrer.json$~third-party
 @@||api.useinsider.com/api/web/$xmlhttprequest
 @@||api.vk.com/method/statEvents.$~third-party
 @@||api.zeeg.me/api/analytics/events/$~third-party
 @@||assets.fyers.in/Lib/analytics/Analytics.js$~third-party
 @@||assets.msn.com/staticsb/statics/latest/adboxes/$script,~third-party
+@@||assets.yasno.live/packs/assets/analytics-events-$script,~third-party
 @@||att.com/scripts/adobe/prod/$script,~third-party
 @@||att.com/scripts/adobe/virtual/detm-container-hdr.js$~third-party
 @@||att.com/ui/services_co_myatt_common/$script,~third-party

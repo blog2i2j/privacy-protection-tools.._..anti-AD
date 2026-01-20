@@ -1,9 +1,9 @@
-! Checksum: w+ZBLDvcl1iXMWeltUNDzg
-! Diff-Path: ../patches/224_optimized/224_optimized-s-1768641045-3600.patch
+! Checksum: khH2bxaiK2nXVeEKGLWOfQ
+! Diff-Path: ../patches/224_optimized/224_optimized-s-1768922172-3600.patch
 ! Title: AdGuard Chinese filter (Optimized)
 ! Description: EasyList China + AdGuard Chinese filter. Filter list that specifically removes ads on websites in Chinese language.
-! Version: 2.1.52.15
-! TimeUpdated: 2026-01-17T09:07:57+00:00
+! Version: 2.1.52.37
+! TimeUpdated: 2026-01-20T15:13:12+00:00
 ! Expires: 12 hours (update frequency)
 ||hs.178yc.com^
 ||aa67678156.com^$third-party
@@ -4591,12 +4591,62 @@ newduba.cn###jq_youxi
 .z.dkt-ib.com
 ||cnzz.trafficmanager.net^
 ||cupfox.app^$third-party
+||f92l2orpu3.com^
+||yah3ph65tc.com^
+||bugs01200ko.com^
+||gsk801200hh.com^
+||7yy69rrqpz.com^
+||s7xrlzfa.top^
+||vdnh.cn^
+||confluent54.top^
+||gjzpwnuifk.com^
+||lp340p7czf.com^
+||gsk801201hh.com^
+||r8ln4v4nef.com^
+||bugs01201ko.com^
+||dpuhlinevz.com^
+||5sghirlr5b.com^
+||5zxkdat6t8.com^
+||rwtzv9ehv.com^
+||wxikfd89f.com^
+||yy1veaxhf.com^
+||bugs01190ko.com^
+||meander32.com^
+||zlnitethia.com^
+||butoqj0vh.com^
+||xkum.cn^
+||ulx1cpf68.com^
+||xktoy8fub.com^
+||bugs01191ko.com^
+||nfksjkfs.com^
+||rubrafoz.com^
+||zwlhfjh4h.com^
+||hizechizr.com^
+||w56953.cc^
+||preuquqre.com^
+||kasgnh7xwl.com^
+||cmesgpqq8z.com^
+||67qlvj0jcj.com^
+||hecwgmokvc.com^
+||bugs01180ko.com^
+||leektiylpi.com^
+||solitaire50.top^
+||xylophone37.com^
+||kacq.cn^
+||8fdmj67f5e.com^
+||nie8fe9far.com^
+||zqqwr9snx1.com^
+||bugs01181ko.com^
+||rxi8jcy0aq.com^
+||mukkoiigam.com^
 ||354xxcdt1.com^
 ||hbz8v.com^
 ||w5c6d9.cc^
 ||bugs01171ko.com^
 ||lqbe7i5gf.com^
 ||1gj8lhfa1.com^
+||tomharrph.com^
+||s45hkb25i.com^
 ||ra0mpyy93.com^
 ||bugs01170ko.com^
 ||evpxl9a8h.com^
@@ -13443,6 +13493,7 @@ meijutt.*/js/pcjs/
 ||douyucdn.cn/adxdsp/
 ||711dm.com/color.
 ||joyacg.top/wp-content/uploads/*-640
+||wnacg.com/game/
 zhihu.com##.Pc-word-new
 supercloudsms.com##.container > img
 muinz.top##.module
